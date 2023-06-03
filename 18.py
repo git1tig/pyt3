@@ -7,10 +7,10 @@ num = int(input("Какое число исходное?"))
 n = int(input("А размер массива какой?"))
 pos = 0
 myArr = [random.randint(1, 10) for i in range(n)]
-print (myArr)
+# print (myArr)
 mynum = abs(myArr[0] - num)
 for i in range(n):
-    print (abs(myArr[i] - num), ' * ')
+   # print (abs(myArr[i] - num), ' * ')
     if abs(myArr[i] - num) < mynum:
             pos = i
             mynum = abs(myArr[i] - num)
